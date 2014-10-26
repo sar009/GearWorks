@@ -1,4 +1,4 @@
 GearWorks
 =========
 
-a simple openGL experimental project
+a simple webGL experimental project in nodejs with expressjs and angularjs framework
