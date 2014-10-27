@@ -21,6 +21,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/bower_components',  express.static(path.join(__dirname + '/bower_components')));
 
 app.use('/', routes);
 app.use('/users', users);
@@ -58,3 +59,12 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+
+var server = app.listen(3000, function () {
+
+  var host = server.address().address;
+  var port = server.address().port;
+
+  console.log('GearWorks listening at http://%s:%s', host, port)
+
+});

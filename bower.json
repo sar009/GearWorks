@@ -1,22 +1,23 @@
 {
-  "name": "GearWorks",
-  "version": "1.0.0",
-  "homepage": "https://github.com/sar009/GearWorks",
-  "authors": [
-    "sarad mohanan <sarad.mohanan@gmail.com>"
-  ],
-  "license": "MIT",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "bootstrap": "~3.2.0",
-    "fontawesome": "~4.2.0",
-    "angular": "~1.3.0"
-  }
+    "name": "GearWorks",
+    "version": "1.0.0",
+    "homepage": "https://github.com/sar009/GearWorks",
+    "authors": [
+        "sarad mohanan <sarad.mohanan@gmail.com>"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "~3.2.0",
+        "fontawesome": "~4.2.0",
+        "angular": "~1.3.0",
+        "threejs": "*"
+    }
 }
