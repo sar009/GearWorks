@@ -11,6 +11,14 @@ flags:
       variants:
         - key: foo
           attachment: {}
+      rules:
+        - segment:
+            keys:
+                - team_id
+            operator: OR_SEGMENT_OPERATOR
+          distributions:
+            - variant: foo
+              rollout: 100
 segments:
     - key: team_id
       name: team_id
