@@ -11,3 +11,7 @@ flags:
       variants:
         - key: foo
           attachment: {}
+segments:
+    - key: team_id
+      name: team_id
+      match_type: ALL_MATCH_TYPE
