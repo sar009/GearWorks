@@ -8,3 +8,6 @@ flags:
       type: VARIANT_FLAG_TYPE
       description: test
       enabled: false
+      variants:
+        - key: foo
+          attachment: {}
